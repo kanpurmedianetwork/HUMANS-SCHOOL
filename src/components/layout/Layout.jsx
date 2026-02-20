@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import { Facebook, Instagram, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const SocialLink = ({ href, icon }) => (
     <a
@@ -56,9 +57,9 @@ const Layout = ({ children }) => {
                         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 mb-4 md:mb-0">
                             <p>© 2026 Humans School of Intelligence.</p>
                             <div className="flex items-center gap-4 text-white/50">
-                                <a href="#" className="hover:text-brand-red transition-colors">Privacy Policy</a>
+                                <Link to="/privacy-policy" className="hover:text-brand-red transition-colors">Privacy Policy</Link>
                                 <span>|</span>
-                                <a href="#" className="hover:text-brand-red transition-colors">Terms & Conditions</a>
+                                <Link to="/terms-and-conditions" className="hover:text-brand-red transition-colors">Terms & Conditions</Link>
                             </div>
                         </div>
                         <p className="opacity-50">v1.0 (Public Release)</p>

@@ -8,6 +8,8 @@ import Simulation from './pages/Simulation';
 import Certificate from './pages/Certificate';
 import Verify from './pages/Verify';
 import Framework from './pages/Framework';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
 import { ProgressProvider } from './context/ProgressContext';
 
 import { Helmet } from 'react-helmet-async';
@@ -32,6 +34,8 @@ function App() {
             <Route path="/simulation" element={<Simulation />} />
             <Route path="/certification" element={<Certificate />} />
             <Route path="/verify" element={<Verify />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           </Routes>
         </Layout>
       </BrowserRouter>
