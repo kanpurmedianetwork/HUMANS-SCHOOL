@@ -1,0 +1,91 @@
+
+> humans-school@0.0.0 lint
+> eslint .
+
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\context\LanguageContext.jsx
+   6:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 react-refresh/only-export-components
+  15:13  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  13 |         const saved = localStorage.getItem('humansSchoolLanguage');
+  14 |         if (saved) {
+> 15 |             setLanguage(saved);
+     |             ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  16 |         }
+  17 |     }, []);
+  18 |  react-hooks/set-state-in-effect
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\context\ProgressContext.jsx
+   5:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    react-refresh/only-export-components
+  28:13  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  26 |         const saved = localStorage.getItem('humansSchoolState');
+  27 |         if (saved) {
+> 28 |             setState(JSON.parse(saved));
+     |             ^^^^^^^^ Avoid calling setState() directly within an effect
+  29 |         }
+  30 |     }, []);
+  31 |  react-hooks/set-state-in-effect
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Assessment.jsx
+  4:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\BadgeClaim.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Certificate.jsx
+   1:17  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  11:13  error  'progress' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  12:13  error  't' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Certification.jsx
+   4:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                           no-unused-vars
+  14:8   warning  React Hook useEffect has a missing dependency: 'generateCertificate'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Course.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Framework.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Home.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Lab.jsx
+  4:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Simulation.jsx
+  4:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\HP\.gemini\antigravity\scratch\humans-school\src\pages\Verify.jsx
+   8:13  error  't' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  no-unused-vars
+  19:13  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  17 |
+  18 |         if (id && name && score) {
+> 19 |             setVerificationData({ id, name, score, date });
+     |             ^^^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  20 |
+  21 |             // Simple validation: Check if ID follows the pattern
+  22 |             // Real validation w/o database would re-hash the data and compare signatures  react-hooks/set-state-in-effect
+
+✖ 18 problems (17 errors, 1 warning)
+

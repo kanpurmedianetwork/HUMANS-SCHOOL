@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <defs>
+    <style>
+      .text { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 32px; letter-spacing: -1px; }
+      .black { fill: #111111; }
+      .red { fill: #E50914; }
+    </style>
+  </defs>
+  <text x="10" y="35" class="text black">HU<tspan class="red">MA</tspan>NS</text>
+</svg>
