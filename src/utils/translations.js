@@ -5,7 +5,7 @@ export const translations = {
         navAssessment: "Assessment",
         navLearning: "Learning",
         navSimulation: "Simulation",
-        navCertified: "Get Certified",
+        navCertified: "Badge & Pledge",
 
         // Hero
         heroTitlePrefix: "Test Your",
@@ -71,7 +71,7 @@ export const translations = {
         step2: "Watch Modules",
         step3: "Live Scenarios",
         step4: "Get Score",
-        step5: "Get Certified",
+        step5: "Get Badge",
 
         // Curriculum
         curriculumTitle: "Curriculum Overview",
@@ -103,13 +103,13 @@ export const translations = {
         scenarioEmotionalTitle: "Attention Hijacking",
         scenarioEmotional: "Emotional Reaction Test",
 
-        // Certification
-        certTitle: "Certification & Recognition",
-        certDesc: "Upon completion, you receive a globally unverifiable but personally meaningful proof of your intelligence upgrade.",
+        // Badge
+        certTitle: "Badge & Pledge",
+        certDesc: "Upon completion, you pledge to practice digital humanity and receive a meaningful badge.",
         certScore: "Score",
         certScoreDesc: "CHREA-based Intelligence Score",
         certBadge: "Badge",
-        certBadgeDesc: "Digital verification badge",
+        certBadgeDesc: "Digital representation of your pledge",
 
         // CTA
         ctaTitle: "Rebuilding Intelligence. Human First.",
@@ -156,7 +156,7 @@ export const translations = {
         navAssessment: "मूल्यांकन",
         navLearning: "सीखना",
         navSimulation: "सिमुलेशन",
-        navCertified: "प्रमाणित हों",
+        navCertified: "बैज और संकल्प",
 
         // Hero
         heroTitlePrefix: "अपनी",
@@ -223,7 +223,7 @@ export const translations = {
         step2: "मॉड्यूल देखें",
         step3: "लाइव परिदृश्य",
         step4: "स्कोर प्राप्त करें",
-        step5: "प्रमाणित हों",
+        step5: "बैज प्राप्त करें",
 
         // Curriculum
         curriculumTitle: "पाठ्यक्रम रूपरेखा",
@@ -255,13 +255,13 @@ export const translations = {
         scenarioEmotionalTitle: "अटेंशन हाईजैकिंग",
         scenarioEmotional: "भावनात्मक प्रतिक्रिया परीक्षण",
 
-        // Certification
-        certTitle: "प्रमाणन और मान्यता",
-        certDesc: "पूरा होने पर, आपको अपने बुद्धि उन्नयन का व्यक्तिगत रूप से सार्थक प्रमाण प्राप्त होता है।",
+        // Badge
+        certTitle: "बैज और मान्यता",
+        certDesc: "पूरा होने पर, आप डिजिटल मानवता का अभ्यास करने का संकल्प लेते हैं और एक सार्थक बैज प्राप्त करते हैं।",
         certScore: "स्कोर",
         certScoreDesc: "CHREA-आधारित इंटेलिजेंस स्कोर",
         certBadge: "बैज",
-        certBadgeDesc: "डिजिटल सत्यापन बैज",
+        certBadgeDesc: "आपके संकल्प का डिजिटल प्रतिनिधित्व",
 
         // CTA
         ctaTitle: "बुद्धिमत्ता का पुनर्निर्माण। इंसान सबसे पहले।",

@@ -5,8 +5,7 @@ import Home from './pages/Home';
 import Assessment from './pages/Assessment';
 import Modules from './pages/Modules';
 import Simulation from './pages/Simulation';
-import Certificate from './pages/Certificate';
-import Verify from './pages/Verify';
+import Badge from './pages/Badge';
 import Framework from './pages/Framework';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
@@ -32,8 +31,7 @@ function App() {
             <Route path="/assessment" element={<Assessment />} />
             <Route path="/modules" element={<Modules />} />
             <Route path="/simulation" element={<Simulation />} />
-            <Route path="/certification" element={<Certificate />} />
-            <Route path="/verify" element={<Verify />} />
+            <Route path="/badge" element={<Badge />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           </Routes>

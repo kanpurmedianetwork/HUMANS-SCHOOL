@@ -70,12 +70,10 @@ const PrivacyPolicy = () => {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">5. Certification & Assessments</h2>
-                        <p className="mb-4">If certification is offered:</p>
+                        <h2 className="text-2xl font-bold text-white mb-4">5. Badge & Pledge System</h2>
                         <ul className="list-disc pl-6 space-y-2 text-brand-gray">
-                            <li>Any name entered for certificate generation is user-provided voluntarily.</li>
-                            <li>Certificate generation may be session-based.</li>
-                            <li>We do not permanently store certificate data unless explicitly mentioned.</li>
+                            <li>The digital human badge is generated locally on your device.</li>
+                            <li>We do not store your pledge or badge data on our servers.</li>
                         </ul>
                     </section>
 

@@ -72,12 +72,11 @@ const TermsAndConditions = () => {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">4. Certification</h2>
-                        <p className="mb-4">Certificates (if provided):</p>
+                        <h2 className="text-2xl font-bold text-white mb-4">4. Badge System</h2>
+                        <p className="mb-4">Digital Badges (if provided):</p>
                         <ul className="list-disc pl-6 space-y-2 text-brand-gray">
-                            <li>Reflect participation or completion.</li>
-                            <li>Do not represent government accreditation.</li>
-                            <li>Are issued based on internal evaluation criteria.</li>
+                            <li>Reflect personal participation and commitment to the pledge.</li>
+                            <li>Do not represent formal education or government accreditation.</li>
                         </ul>
                     </section>
 

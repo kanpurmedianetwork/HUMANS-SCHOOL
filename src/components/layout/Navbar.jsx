@@ -71,7 +71,7 @@ const Navbar = () => {
                         <MobileNavLink to="/framework" label="CHREA Framework" onClick={closeMenu} />
                         <MobileNavLink to="/modules" label={t('navLearning')} onClick={closeMenu} />
                         <MobileNavLink to="/simulation" label={t('navSimulation')} onClick={closeMenu} />
-                        <MobileNavLink to="/certification" label={t('navCertified')} onClick={closeMenu} />
+                        <MobileNavLink to="/badge" label={t('navBadge')} onClick={closeMenu} />
                         <MobileNavLink to="/assessment" label="Start Free Assessment" isPrimary onClick={closeMenu} />
                     </div>
                 </div>

@@ -41,7 +41,7 @@ const Simulation = () => {
         } else {
             // Finish
             submitSimulation(totalScore + score); // Add last score
-            navigate('/certification');
+            navigate('/badge');
         }
     };
 

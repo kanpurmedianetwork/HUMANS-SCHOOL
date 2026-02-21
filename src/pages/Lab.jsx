@@ -73,10 +73,10 @@ const Lab = () => {
                         You've demonstrated excellent digital ethics awareness. You are now ready to claim your Digital Warrior Badge.
                     </p>
                     <button
-                        onClick={() => navigate('/certification')}
+                        onClick={() => navigate('/badge')}
                         className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand-red hover:bg-red-700 transition-colors"
                     >
-                        Claim Badge & Certificate
+                        Take Pledge & Claim Badge
                     </button>
                 </motion.div>
             </div>
