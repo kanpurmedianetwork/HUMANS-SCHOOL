@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
                     <section className="bg-white/5 p-8 rounded-3xl border border-white/10">
                         <h2 className="text-2xl font-bold text-white mb-4">10. Contact</h2>
                         <p>For privacy-related concerns:</p>
-                        <a href="mailto:hello@kanpurmedianetwork.com" className="text-brand-red font-bold text-xl hover:underline mt-2 inline-block">hello@kanpurmedianetwork.com</a>
+                        <a href="mailto:itdesk@schoolofhumans.in" className="text-brand-red font-bold text-xl hover:underline mt-2 inline-block">itdesk@schoolofhumans.in</a>
                     </section>
 
                 </div>
